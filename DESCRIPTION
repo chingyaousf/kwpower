@@ -4,7 +4,9 @@ Title: Perform Kruskal-Wallis Test to Multiple Pairwise-Comparison between group
 Version: 0.0.0.9000
 Author: Ching Yao Yang chingyao@usf.edu
 Maintainer: <chingyao@usf.edu>
-Description: The kwpower package provides a non-parametric function to perform the Kruskal-Wallis test with pairwise comparisons for three or more independent groups with continuous data but not normally distributed. 
+Description: The kwpower package provides a non-parametric function to perform the Kruskal-Wallis test 
+    with pairwise comparisons for three or more independent groups with continuous data but not normally distributed
+    and creates 2 plots.
 License: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

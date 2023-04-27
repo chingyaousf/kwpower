@@ -3,8 +3,8 @@ title: "kwpower R.package"
 author: "Ching Yao Yang"
 date: "25 April 2023"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -13,19 +13,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # kwpower R.package
 
-The **kwpower package** can Perform **Kruskal-Wallis Test** to **Multiple Pairwise-Comparison** between groups to test the mean ranks differ between groups and produce the graphics to visualize the data instead of running Kruskal-Wallis Test, Multiple Pairwise-Comparison separately.
+The **kwpower package** allows for the efficient comparison of mean ranks between three or more groups with continuous but not normally distributed data by performing the **Kruskal-Wallis Test** and **Multiple Pairwise-Comparison.** This eliminates the need to run these tests separately, saving time and effort. Additionally, the kwpower package produces graphics that visualize the data, making it easier to interpret the results.
 
-For example, we would like to test whether the **average monthly temperatures in Tampa in 1900, 1990, and 2022** have been significantly affected by global warming, and visualize the data accordingly. To do this, we will use the dataset "1900_1990_2022_Tampa_monthly_temperature.csv".
+The package's main function is called **kwp()**, and it is accompanied by two other functions, **ppt1()** and **ppt2()**. These functions generate plots that facilitate easy comparison. Users can input their dataset, and the package will automatically produce the plots.
 
-The kwpower package allows users to perform a **Kruskal-Wallis Test for multiple pairwise comparisons of three or more groups** with **continuous but not normally distributed data**. The main function in this package is called kwp().
+For example, we would like to test whether the **average monthly temperatures in Tampa in 1900, 1990,** **and 2022** have been significantly affected by global warming, and visualize the data accordingly. To do this, we will use the dataset "1900_1990_2022_Tampa_monthly_temperature.csv".
 
-The kwpower package comes with two additional functions, **ppt1()** and **ppt2()**, which generate plots for easy comparison. Users can input their dataset, and the plots will be **automatically generated**.
-
-One of the key features of the kwpower package is its ability **to test any type of CSV data** and generate plots with a structure that includes values in the 2nd column and groups in the 3rd column.
+One of the **key features** of the kwpower package is its ability to test **any type of CSV data** and generate plots with a structure that includes values in the **2nd column** and groups in the **3rd column**. To read a CSV file, users can choose the file interactively using a dialog box.
 
 **"With just a few clicks, users can perform their analysis easily."**
-
-To read a CSV file, users can choose the file **interactively using a dialog box**. The resulting data can be saved to a variable called my_data.
 
 ### **Dataset**
 
