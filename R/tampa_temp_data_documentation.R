@@ -11,5 +11,5 @@
 #'
 #' @examples
 #' data(tampa_temp_data)
-tampa_temp_data <- read.csv("C:/Users/Administrator/Desktop/kwpower/data/1900 1990 2022 Tampa monthly temperature.csv")
+tampa_temp_data <- read.csv("./data/1900 1990 2022 Tampa monthly temperature.csv")
 
