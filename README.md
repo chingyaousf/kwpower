@@ -9,6 +9,8 @@ It comes with two additional functions, ppt1() and ppt2(), which
 generate plots for easy comparison. Users can input their dataset, and
 the plots will be automatically generated.
 
+For example, we would like to test whether the average monthly temperatures in Tampa in 1900, 1990, and 2022 have been significantly affected by global warming, and visualize the data accordingly.The dataset called 1900 1990 2022 Tampa monthly temperature.csv in the data folder is used for the test.
+
 ### Functions
 
 **kwp()**
