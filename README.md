@@ -1,10 +1,3 @@
----
-editor_options:
-  markdown:
-    wrap: 72
-output: pdf_document
----
-
 ### kwpower Package
 
 The kwpower package allows users to perform a Kruskal-Wallis Test for
