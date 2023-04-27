@@ -4,10 +4,6 @@ author: "Ching Yao Yang"
 date: "25 April 2023"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 # kwpower R.package
 
 The **kwpower package** can Perform **Kruskal-Wallis Test** to **Multiple Pairwise-Comparison** between groups to test the mean ranks differ between groups and produce the graphics to visualize the data instead of running Kruskal-Wallis Test, Multiple Pairwise-Comparison separately.
